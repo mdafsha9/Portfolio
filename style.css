@@ -64,3 +64,30 @@ nav{
   padding:10px;
   margin-top:20px;
 }
+#about{
+  padding:100px 50px;
+}
+.section-info{
+  font-weight:bold;
+  text-align:center;
+}
+.section-info h1{
+  font-size:50px;
+  }
+  .section-info p{
+    font-size:25px;
+    color:#f71460;
+    }
+.about-row{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.about-left-col{
+  flex-basis:50%;
+}
+.about-left-col img{
+  width:100%
+  padding:50px;
+}
