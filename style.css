@@ -11,6 +11,7 @@
   background-size:50% 100%, cover;
   background-repeat:no-repeat, no-repeat;
   background-position:right, center;
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
 }
 .logo{
   color:white;
@@ -41,4 +42,25 @@ nav{
 .menu a:hover{
   background:#f71460;
   transition:0.4s;
+}
+.text{
+  margin-top:100px;
+  margin-left:100px;
+  max-width:450px;
+  color:white;
+}
+.text h1{
+  font-size:50px;
+  margin:10px 0px;
+}
+.text p{
+  font-size:25px;
+}
+.c-btn{
+  color:white;
+  background:#f71460;
+  border:none;
+  outline:none;
+  padding:10px;
+  margin-top:20px;
 }
