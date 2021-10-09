@@ -106,17 +106,27 @@ nav{
 }
 #skills{
   padding:100px 50px;
-  
+  background:url("assets/skills.jpg");
+  background-size:cover;
 }
 .skills-row{
   display:flex;
   justify-content:center;
   align-items:center;
   flex-wrap:wrap;
+  background:rgb(45,52,54);
+  padding:50px;
 }
 .skills-left-col{
   flex-basis:50%;
   text-align:justify;
+  color:white;
+}
+.skills-left-col p{
+  font-size:20px;
+}
+.col{
+  color:white;
 }
 .skills-right-col{
   flex-basis:50%;
