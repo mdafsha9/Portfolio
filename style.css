@@ -74,7 +74,7 @@ nav{
 .section-info h1{
   font-size:50px;
   }
-  .section-info p{
+.section-info p{
     font-size:25px;
     color:#f71460;
     }
@@ -88,6 +88,10 @@ nav{
   flex-basis:50%;
 }
 .about-left-col img{
-  width:100%
+  width:600px;
   padding:50px;
+  border-radius:30%;
+}
+.about-right-col{
+  flex-basis:50%;
 }
