@@ -118,7 +118,7 @@ nav{
   padding:50px;
 }
 .skills-left-col{
-  flex-basis:50%;
+  flex-basis:40%;
   text-align:justify;
   color:white;
 }
@@ -130,4 +130,7 @@ nav{
 }
 .skills-right-col{
   flex-basis:50%;
+}
+span{
+  color:white;
 }
