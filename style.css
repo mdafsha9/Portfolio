@@ -63,6 +63,7 @@ nav{
   outline:none;
   padding:10px;
   margin-top:20px;
+  border-radius:5px;
 }
 #about{
   padding:100px 50px;
@@ -102,4 +103,20 @@ nav{
 .about-right-col p{
   font-size:20px;
   text-align:justify;
+}
+#skills{
+  padding:100px 50px;
+}
+.skills-row{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.skills-left-col{
+  flex-basis:50%;
+  text-align:justify;
+}
+.skills-right-col{
+  flex-basis:50%;
 }
