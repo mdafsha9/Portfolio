@@ -134,3 +134,10 @@ nav{
 span{
   color:white;
 }
+progress{
+  width:80%;
+}
+.progress-div{
+  width:70%;
+  margin:auto;
+}
