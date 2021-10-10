@@ -184,3 +184,18 @@ progress{
   font-weight:bold;
   padding-top:30px;
 }
+#contact{
+  padding:100px 50px;
+}
+.contatc-row{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.contatc-left-col{
+  flex-basis:50%;
+}
+.contatc-right-col{
+  flex-basis:50%;
+}
