@@ -216,3 +216,14 @@ progress{
     padding:10px;
     margin-bottom:10px;
 }
+.section-info .con{
+  color:white;
+}
+footer{
+  background:#f71460;
+  color:white;
+  padding:20px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
