@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="JS/custom.js"></script>
+    <script src="JS/typed.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   </head>
   <body>
@@ -28,7 +28,7 @@
       <div class="text">
         <p>Hello, I am</p>
         <h1>Afsha Ammisetty</h1>
-        <p>And I am a Front End Developer</p>
+        <p>And I am a <span id="ani" style="color:#f71460;"></span></p>
         <button class="c-btn"><a href="mailto:mdafsha9@gmail.com">Hire me</a></button>
       </div>
     </header>
@@ -192,7 +192,7 @@
             <input type="text" name="name" placeholder="Name" required><br>
             <input type="email" name="email" placeholder="Email" required><br>
             <textarea cols="40" rows="10" name="message" placeholder="Message" required></textarea><br>
-            <input type="hidden" name="_next" value="https://mdafsha9.github.io/Portfolio//thankyou.html">
+            <input type="hidden" name="_next" value="https://mdafsha9.github.io/Portfolio/thankyou.html">
             <button class="c-btn">Submit</button>
           </form>
         </div>
@@ -212,6 +212,14 @@
   perturbance:0.03,
 });
     });
+    </script>
+    <script>
+    let animate = new Typed("#ani", {
+      strings:["Front End Developer", "Graphic Designer"],
+      typeSpeed:100,
+      backSpeed:100,
+      loop:true,
+    })
     </script>
   </body>
 </html>
