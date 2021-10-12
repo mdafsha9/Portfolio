@@ -156,9 +156,6 @@ progress{
   padding-left:80px;
   text-align:justify;
 }
-.jobs-box img{
-  width:100px;
-}
 #jobs{
   padding:100px 50px;
 }
@@ -166,7 +163,7 @@ progress{
   display:flex;
   justify-content:space-around;
   align-items:center;
-  flex-wrap;
+  flex-wrap:wrap;
 }
 .jobs-box{
   flex-basis:25%;
@@ -175,32 +172,21 @@ progress{
   padding:15px;
   margin:20px 25px 25px 0px;
 }
-.jobs-box .met{
-  width:150px;
-  padding:10px 0px;
-}
-.jobs-box .gwd{
-  width:150px;
-  padding:32px 0px;
-}
-.jobs-box .free{
-  width:150px;
-  padding:2px 0px;
-}
-.c-btn1{
-  margin-top:10px;
-}
 .jobs-box:hover{
   background:rgb(45,52,54);
   color:white;
   transiiton:0.4s;
   border-radius:5px;
 }
+.jobs-box img{
+  width:40%;
+}
 .jobs-box a{
   color:#f71460;
-  font-weight:bold;
+
   padding-top:30px;
 }
+
 .work-row{
   display:flex;
   justify-content:center;
@@ -214,9 +200,13 @@ progress{
 .work-right-col{
   flex-basis:50%;
 }
-
+.c-btn1{
+  font-weight:bold;
+  margin-top:10px;
+}
 .work-left-col button a{
   text-decoration:none;
+
 }
 
 
@@ -301,11 +291,14 @@ footer h2{
 
   progress{
     width:100%;
+
   }
   .progress-div{
     width:100%;
+    padding-top:10px;
   }
-.jobs-box{
-  width:100%;
-}
+  .progress-div p{
+    padding-left:10px;
+  }
+
 }
