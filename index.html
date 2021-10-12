@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="JS/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   </head>
   <body>
     <header>
@@ -202,5 +203,14 @@
         <img src="assets/tweet.png">
         <img src="assets/whts.png">
     </footer>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script>
+    jQuery(document).ready(function(){
+      $('header').ripples({
+  dropRadius:20,
+  perturbance:0.03,
+});
+    });
+    </script>
   </body>
 </html>
