@@ -44,7 +44,7 @@
           <img src="assets/about.png">
         </div>
         <div class="about-right-col">
-        <p id="p-title">Hello, I'm Afsha & I'm a Front End Developer</p>
+        <p id="p-title">Hello, I'm Afsha & I'm a <span id="ani2" style="color:#f71460;"></span></p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
           when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -215,6 +215,14 @@
     </script>
     <script>
     let animate = new Typed("#ani", {
+      strings:["Front End Developer", "Graphic Designer"],
+      typeSpeed:100,
+      backSpeed:100,
+      loop:true,
+    })
+    </script>
+    <script>
+    let animate2 = new Typed("#ani2", {
       strings:["Front End Developer", "Graphic Designer"],
       typeSpeed:100,
       backSpeed:100,
