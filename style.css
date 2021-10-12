@@ -280,3 +280,32 @@ footer h2{
   text-decoration:none;
   color:white;
 }
+@media only screen and (max-width:770px){
+  header{
+    background:url('assets/bg1.jpg');
+    background-size:cover;
+  }
+  .menu a{display:none;}
+
+  .logo{padding-left:50px;}
+  .text{margin-left:50px;}
+
+  .skills-left-col{
+    flex-basis:100%;
+    text-align:justify;
+    color:white;
+  }
+  .skills-right-col{
+    flex-basis:100%;
+  }
+
+  progress{
+    width:100%;
+  }
+  .progress-div{
+    width:100%;
+  }
+.jobs-box{
+  width:100%;
+}
+}
