@@ -19,7 +19,6 @@
   font-size:50px;
   padding-left:100px;
   letter-spacing:5px;
-  font-family:'Montserrat';
 }
 .logo span{
   color:#f71460;
@@ -58,6 +57,7 @@ nav{
 .text h1{
   font-size:50px;
   margin:10px 0px;
+  font-family:papyrus;
 }
 .text p{
   font-size:25px;
@@ -83,8 +83,9 @@ nav{
   font-size:50px;
   }
 .section-info p{
-    font-size:25px;
+    font-size:30px;
     color:#f71460;
+    font-family:Brush Script MT;
     }
 .about-row{
   display:flex;
