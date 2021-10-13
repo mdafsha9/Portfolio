@@ -194,22 +194,11 @@ progress{
   align-items:center;
   flex-wrap:wrap;
 }
-.work-left-col{
-  flex-basis:50%;
-}
 
-.work-right-col{
-  flex-basis:50%;
-}
 .c-btn1{
   font-weight:bold;
   margin-top:10px;
 }
-.work-left-col button a{
-  text-decoration:none;
-
-}
-
 
 #contact{
   padding:100px 50px;
