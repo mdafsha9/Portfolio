@@ -257,8 +257,8 @@ footer{
   background:#f71460;
   color:white;
   padding:20px;
-    display:flex;
-    justify-content:center;
+  display:flex;
+  justify-content:center;
 }
 footer img{
   width:30px;
@@ -299,6 +299,18 @@ footer h2{
   }
   .progress-div p{
     padding-left:10px;
+  }
+  .jobs-box{
+    flex-basis:100%;
+  }
+  .jobs-box img{
+    width:100%;
+  }
+  .contact-left-col{
+    flex-basis:10%;
+  }
+  .contact-right-col{
+    flex-basis:100%;
   }
 
 }
