@@ -104,6 +104,10 @@ nav{
 .about-right-col{
   flex-basis:50%;
 }
+.about-right-col p{
+  padding-top:10px;
+  font-family:helvetica;
+}
 #p-title{
   font-size:20px;
   font-weight:bold;
@@ -219,6 +223,7 @@ progress{
 .contact-right-col form h2{
   margin-bottom:20px;
 }
+
 .contact-right-col form{
     text-align:center;
 }
