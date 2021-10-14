@@ -72,6 +72,10 @@ nav{
   border-radius:5px;
   font-weight:bold;
 }
+.c-btn a{
+  color:white;
+  text-decoration:none;
+}
 #about{
   padding:100px 50px;
 }
@@ -202,6 +206,7 @@ progress{
 .c-btn1{
   font-weight:bold;
   margin-top:10px;
+
 }
 
 #contact{
