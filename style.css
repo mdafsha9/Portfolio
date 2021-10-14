@@ -72,10 +72,6 @@ nav{
   border-radius:5px;
   font-weight:bold;
 }
-.c-btn a{
-  color:white;
-  text-decoration:none;
-}
 #about{
   padding:100px 50px;
 }
@@ -262,6 +258,7 @@ footer{
 }
 footer img{
   width:30px;
+  padding-left:5px;
 }
 footer h2{
   padding-right:10px;
