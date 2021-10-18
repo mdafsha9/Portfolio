@@ -116,34 +116,41 @@ nav{
   font-size:20px;
   text-align:justify;
 }
-#skills{
+#works{
   padding:100px 50px;
   background:url("assets/skills.jpg");
   background-size:cover;
   background-attachment:fixed;
 }
-.skills-row{
+.works-row{
   display:flex;
-  justify-content:center;
-  align-items:center;
+  text-align:center;
   flex-wrap:wrap;
   background:rgb(45,52,54);
   padding:50px;
   margin-top:5px
 }
-.skills-left-col{
-  flex-basis:40%;
-  text-align:justify;
+.works-left-col{
+  flex-basis:70%;
   color:white;
 }
-.skills-left-col p{
+.works-left-col p{
   font-size:20px;
+}
+.works-left-col h1{
+  font-size:50px;
+  color:#f71460;
 }
 .col{
   color:white;
 }
-.skills-right-col{
-  flex-basis:50%;
+.works-right-col{
+  flex-basis:30%;
+  border-left:1px solid white;
+}
+.works-right-col h1{
+  font-size:50px;
+  color:#f71460;
 }
 span{
   color:white;
@@ -158,7 +165,7 @@ progress{
 .progress-div p{
   margin-bottom:10px;
   font-size:20px;
-  padding-left:80px;
+  padding-left:10px;
   text-align:justify;
 }
 #jobs{
