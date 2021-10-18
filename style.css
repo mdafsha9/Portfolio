@@ -151,7 +151,9 @@ margin:0px 20px;
   text-decoration:none;
   display:inline-block;
   font-size:20px;
-  padding:20px 5px 5px 40px;
+  margin:20px 10px;
+  padding:5px 10px;
+
   font-weight:bold;
 }
 .col{
@@ -159,6 +161,18 @@ margin:0px 20px;
 }
 .section-info p{
   color:white;
+}
+.projects-menu ul li:hover{
+  color:white;
+  background:transparent;
+  border:1px solid white;
+  border-radius:8px;
+}
+li.active{
+  color:white;
+  background:#f71460;
+  border-radius:8px;
+  border:1px solid white;
 }
 
 #jobs{
