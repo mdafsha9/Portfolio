@@ -122,25 +122,31 @@ nav{
   background-size:cover;
   background-attachment:fixed;
 }
-  background:rgb(45,52,54);
 
-span{
+.projects{
+  background:#f71460;;
+  display:grid;
+  grid-template-rows:repeat(3, 200px);
+  grid-template-columns:repeat(5, 250px);
+  grid-gap:20px;
+}
+.proj{
+margin:80px 20px;
+
+}
+.proj img{
+  width:250px;
+  height:200px;
+  margin:20px;
+  border-radius:8px;
+}
+.col{
   color:white;
 }
-progress{
-  width:80%;
-  margin:5px 0px;
+.section-info p{
+  color:white;
 }
-.progress-div{
-  width:70%;
-  margin:5px;
-}
-.progress-div p{
-  margin-bottom:10px;
-  font-size:20px;
-  padding-left:10px;
-  text-align:justify;
-}
+
 #jobs{
   padding:100px 50px;
 }
