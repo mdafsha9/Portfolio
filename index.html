@@ -59,18 +59,32 @@
         <h1 class="col">Projects</h1>
         <p>My projects are</p>
       </div>
-      <div class="projects">
-        <div class="proj"><img src="assets/gallery.png"></div>
-        <div class="proj"><img src="assets/gym.png"></div>
-        <div class="proj"><img src="assets/portfolio.png"></div>
-        <div class="proj"><img src="assets/"></div>
-        <div class="proj"><img src="assets/"></div>
-        <div class="proj"><img src="assets/"></div>
-        <div class="proj"><img src="assets/HonestBlock.png"></div>
-        <div class="proj"><img src="assets/theguruji.png"></div>
-        <div class="proj"><img src="assets/HealthBlockCHAIN.png"></div>
-        <div class="proj"><img src="assets/"></div>
+      <div class="projects-nav">
+        <div class="projects-menu">
+          <ul>
+            <li class="active" data-filter="*">Show All</li>
+            <li data-filter=".javascript">JavaScript</li>
+            <li data-filter=".bootstrap">Bootstrap</li>
+            <li data-filter=".scss">SCSS</li>
+            <li data-filter=".angular">Angular</li>
+            <li data-filter=".designs">Designs</li>
+            <li data-filter=".websites">HTML/CSS</li>
+          </ul>
+        </div>
+        <div class="projects">
+          <div class="proj websites"><img src="assets/gallery.png"></div>
+          <div class="proj websites"><img src="assets/gym.png"></div>
+
+          <div class="proj websites javascript"><img src="assets/"></div>
+          <div class="proj websites bootstrap"><img src="assets/"></div>
+          <div class="proj websites scss"><img src="assets/"></div>
+          <div class="proj designs"><img src="assets/HonestBlock.png" style="background:black;"></div>
+          <div class="proj designs"><img src="assets/theguruji.png"></div>
+          <div class="proj designs"><img src="assets/HealthBlockchain.png"></div>
+          <div class="proj websites angular"><img src="assets/"></div>
+          <div class="proj websites"><img src="assets/portfolio.png"></div>
       </div>
+    </div>
     </section>
     <section id="jobs">
       <div class="section-info">
@@ -173,5 +187,25 @@
     })
     </script>
     <script src="JS/tilt.jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script type="text/javascript">
+        $('.projects').isotope({
+    // options
+    itemSelector: '.proj',
+    layoutMode: 'fitRows'
+    });
+
+        $('.projects-menu ul li').click(function(){
+          $('.projects-menu ul li').removeClass('active');
+          $(this).addClass('active');
+
+            var selector = $(this).attr('data-filter');
+          $('.projects').isotope({
+            filter:selector
+          })  ;
+          return false;
+        });
+    </script>
   </body>
 </html>

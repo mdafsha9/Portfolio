@@ -124,21 +124,35 @@ nav{
 }
 
 .projects{
-  background:#f71460;;
   display:grid;
   grid-template-rows:repeat(3, 200px);
   grid-template-columns:repeat(5, 250px);
-  grid-gap:20px;
+  grid-gap:30px;
+}
+.projects-nav{
+    background:#f71460;
 }
 .proj{
-margin:80px 20px;
+margin:0px 20px;
 
 }
 .proj img{
-  width:250px;
-  height:200px;
+  width:200px;
+  height:150px;
   margin:20px;
   border-radius:8px;
+  outline:1px solid black;
+  outline-offset:5px;
+}
+.projects-menu{
+  color:white;
+}
+.projects-menu ul li{
+  text-decoration:none;
+  display:inline-block;
+  font-size:20px;
+  padding:20px 5px 5px 40px;
+  font-weight:bold;
 }
 .col{
   color:white;
