@@ -116,11 +116,12 @@ nav{
   font-size:20px;
   text-align:justify;
 }
-#works{
+#pro{
   padding:100px 50px;
   background:url("assets/skills.jpg");
   background-size:cover;
   background-attachment:fixed;
+  clip-path: polygon(50% 0%, 79% 12%, 100% 0, 100% 100%, 80% 95%, 50% 100%, 20% 95%, 1% 100%, 0 0, 21% 12%);
 }
 
 .projects{
